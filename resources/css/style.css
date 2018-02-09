@@ -33,6 +33,7 @@ header {
 
 .head-left {
 	height: 50px;
+	margin-right: 100px;
 	margin-left: 10px;
 }
 
@@ -43,12 +44,12 @@ header {
 
 .head-right {
 	display: flex;
+	min-width: 400px;
 	margin-right: 10px;
 }
 
 .head-right span {
 	margin-left: 20px;
-	color: 
     color: seashell;
     opacity: 0.9;
 }
@@ -80,6 +81,7 @@ header a {
 #featured-tea {
 	margin: auto;
 	width: 1000px;
+	min-width: 900px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -111,6 +113,7 @@ span img {
 
 #locations {
 	background-image: url('../images/img-locations-background.jpg');
+	/* I know the spec sheet said "Width: 500" but that size appears to small (570px looked correct). I wasn't sure what to do */
 	height: 500px;
 	width: 1200px;
 	margin-top: 60px;
