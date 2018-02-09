@@ -53,10 +53,6 @@ header {
     opacity: 0.9;
 }
 
-header a {
-	color: seashell;
-}
-
 /* Mission */
 
 #mission {
@@ -88,19 +84,22 @@ header a {
 .tea-box {
 	height: 200px;
 	width: 300px;
-	margin-right: 15px;
-	margin-left: 15px;
-	padding-bottom: 70px;
 }
 
 .discript-box {
 	width: 100%;
+	background-color: purple;
 	padding-top: 50px;
 }
 
 span img {
 	height: 200px;
 	width: 300px;
+}
+
+.tea-box {
+	padding-left: 30px;
+	padding-bottom: 70px;
 }
 
 .tea-box h4 {
@@ -113,7 +112,6 @@ span img {
 	background-image: url('../images/img-locations-background.jpg');
 	height: 500px;
 	width: 1200px;
-	margin-top: 60px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -122,12 +120,14 @@ span img {
 
 .locations-descript {
 	width: 100%;
+	background-color: tan;
 	margin-bottom: 10px;
 }
 
 .locations-descript h2 {
 	margin: 0;
 	padding: 0;
+	background-color: green;
 }
 
 .locations-item {
@@ -150,7 +150,6 @@ span img {
 
 footer {
 	height: 200px;
-	margin-bottom: 40px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
